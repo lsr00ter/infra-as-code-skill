@@ -1,0 +1,8 @@
+---
+common_timezone: UTC
+common_packages:
+  - curl
+  - ca-certificates
+  - unattended-upgrades
+common_ssh_password_authentication: false
+common_ssh_permit_root_login: prohibit-password

@@ -1,0 +1,6 @@
+---
+# Ubuntu names the OpenSSH server unit "ssh", not "sshd".
+- name: Restart sshd
+  ansible.builtin.service:
+    name: ssh
+    state: restarted

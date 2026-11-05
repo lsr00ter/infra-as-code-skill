@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  role_name: common
+  author: infra-as-code-skill
+  description: Baseline packages, timezone, and SSH hardening for Ubuntu hosts.
+  license: MIT
+  min_ansible_version: "2.16"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - noble
+dependencies: []
